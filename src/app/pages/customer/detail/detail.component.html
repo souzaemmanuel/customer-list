@@ -1,0 +1,41 @@
+<section>
+  <h1>
+    {{ customer?.firstName }}
+    {{ customer?.lastName }}
+  </h1>
+  <form class="form" [formGroup]="form">
+    <mat-form-field class="full-width" appearance="fill">
+      <mat-label>Salutation</mat-label>
+      <input matInput formControlName="salutation" disabled />
+    </mat-form-field>
+
+    <mat-form-field class="full-width" appearance="fill">
+      <mat-label>Address Line 1</mat-label>
+      <input matInput formControlName="addressLine1" disabled />
+    </mat-form-field>
+    <mat-form-field class="full-width" appearance="fill">
+      <mat-label>Address Line 2</mat-label>
+      <input matInput formControlName="addressLine2" disabled />
+    </mat-form-field>
+    <mat-form-field class="full-width" appearance="fill">
+      <mat-label>City</mat-label>
+      <input matInput formControlName="city" disabled />
+    </mat-form-field>
+    <mat-form-field class="full-width" appearance="fill">
+      <mat-label>State</mat-label>
+      <input matInput formControlName="state" disabled />
+    </mat-form-field>
+    <mat-form-field class="full-width" appearance="fill">
+      <mat-label>Zip Code</mat-label>
+      <input matInput formControlName="zipCode" disabled />
+    </mat-form-field>
+    <mat-form-field class="full-width" appearance="fill">
+      <mat-label>Email Address</mat-label>
+      <input matInput formControlName="emailAddress" disabled />
+    </mat-form-field>
+    <mat-form-field class="full-width" appearance="fill">
+      <mat-label>tele Phone Number</mat-label>
+      <input matInput formControlName="telePhoneNumber" disabled />
+    </mat-form-field>
+  </form>
+</section>
